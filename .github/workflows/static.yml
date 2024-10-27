@@ -34,6 +34,8 @@ jobs:
       
       - name: Lychee Broken Link Checker
         uses: lycheeverse/lychee-action@v2.0.2
+        with:
+          fail: true
           
       - name: Setup Pages
         uses: actions/configure-pages@v5
