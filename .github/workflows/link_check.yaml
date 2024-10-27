@@ -35,7 +35,3 @@ jobs:
         uses: lycheeverse/lychee-action@v2.0.2
         with:
           fail: true
- 
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
