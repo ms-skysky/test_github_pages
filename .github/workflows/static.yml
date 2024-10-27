@@ -31,6 +31,12 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      
+      - name: Lychee Broken Link Checker
+        uses: lycheeverse/lychee-action@v2.0.2
+        with:
+          fail: true
+          
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
